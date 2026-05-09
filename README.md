@@ -20,7 +20,11 @@ Smart Solar Tracking System (IoT)An ESP32-based single-axis solar tracker that a
 📌 Pin Mapping
 
 ComponentESP32 PinDescription
-* LDR 1GPIO 34Left/Top Light SensorLDR 2GPIO 35Right/Bottom Light SensorLM35GPIO 32Ambient TemperatureVoltage SensorGPIO 33Panel Voltage OutputServo MotorGPIO 13PWM Control Signal
+* LDR 1- GPIO 34Left/Top 
+* LDR 2- GPIO 35Right/Bottom 
+* LM35- GPIO 32
+* Voltage Sensor- GPIO 33
+* Servo Motor- GPIO 13
 
 💻 Software Requirements
 
@@ -39,7 +43,7 @@ Create a new template in the Blynk Console and add Virtual Pins:
 * V5: Weather Condition (String)
 * Configuration: Update the BLYNK_AUTH_TOKEN, ssid, and pass variables in the code with your credentials.
 * Calibration: Adjust the ldrThreshold and angleStep constants in the code to fine-tune the sensitivity of the movement.
-* 
+  
 📊 Logic FlowSensing:
 1. The system reads analog values from two LDRs.
 2. Comparison: It calculates the difference (ldrDiff) between the two sensors
