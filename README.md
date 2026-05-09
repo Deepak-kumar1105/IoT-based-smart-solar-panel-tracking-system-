@@ -1,4 +1,4 @@
-Smart Solar Tracking System (IoT)An ESP32-based single-axis solar tracker that automatically orients a solar panel toward the strongest light source to maximize energy harvesting. The system integrates with the Blynk IoT platform for real-time monitoring of power output and environmental conditions.
+**Smart Solar Tracking System (IoT)An ESP32-based single-axis solar tracker that automatically orients a solar panel toward the strongest light source to maximize energy harvesting. The system integrates with the Blynk IoT platform for real-time monitoring of power output and environmental conditions.**
 
 🚀 Features
 
