@@ -49,3 +49,7 @@ Create a new template in the Blynk Console and add Virtual Pins:
 2. Comparison: It calculates the difference (ldrDiff) between the two sensors
 3. .Adjustment: If the difference exceeds the threshold, the servo increments/decrements its position to equalize the light levels.
 4. Reporting: Data is pushed to the Blynk Cloud every 2000ms.
+
+👨‍💻 Author
+
+N. Deepak Kumar
