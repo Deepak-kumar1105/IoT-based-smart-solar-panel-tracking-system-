@@ -33,7 +33,9 @@ The following libraries are required to compile the code:
 * BlynkSimpleEsp32.h
 * ESP32Servo.h
 
-⚙️ Setup InstructionsBlynk Setup:
+⚙️ Setup Instructions
+
+**Blynk Setup:**
 
 Create a new template in the Blynk Console and add Virtual Pins: 
 * V0, V1: LDR Values
@@ -43,12 +45,35 @@ Create a new template in the Blynk Console and add Virtual Pins:
 * V5: Weather Condition (String)
 * Configuration: Update the BLYNK_AUTH_TOKEN, ssid, and pass variables in the code with your credentials.
 * Calibration: Adjust the ldrThreshold and angleStep constants in the code to fine-tune the sensitivity of the movement.
+
+**Wi-Fi Configuration**
+
+Update your Wi-Fi credentials:
+
+* char ssid[] = "YOUR_WIFI_NAME";
+* char pass[] = "YOUR_WIFI_PASSWORD";
+
+**Upload Code**
+
+* Open Arduino IDE
+* Select ESP32 Board
+* Install required libraries
+* Upload the code to ESP32
   
 📊 Logic FlowSensing:
 1. The system reads analog values from two LDRs.
 2. Comparison: It calculates the difference (ldrDiff) between the two sensors
 3. .Adjustment: If the difference exceeds the threshold, the servo increments/decrements its position to equalize the light levels.
 4. Reporting: Data is pushed to the Blynk Cloud every 2000ms.
+
+🔮 Future Improvements
+
+* Dual-axis solar tracking
+* Battery charging system
+* MPPT integration
+* Cloud data logging
+* Solar efficiency analytics
+* Mobile notification alerts
 
 👨‍💻 Author
 
