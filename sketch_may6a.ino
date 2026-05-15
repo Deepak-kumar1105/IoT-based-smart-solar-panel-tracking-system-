@@ -1,7 +1,7 @@
 // Blynk Template Info (MUST be placed before any includes)
-#define BLYNK_TEMPLATE_ID "TMPL3xpLk9B_r"
-#define BLYNK_TEMPLATE_NAME "smart solar panel "
-#define BLYNK_AUTH_TOKEN "yVGPS75yfo4-FGkZdwkbh2UUg47vNZJN"
+#define BLYNK_TEMPLATE_ID "xxxxx"
+#define BLYNK_TEMPLATE_NAME "Name "
+#define BLYNK_AUTH_TOKEN "xxxx"
 
 // Libraries
 #include <WiFi.h>
@@ -10,8 +10,8 @@
 
 // Blynk and Wi-Fi Credentials
 char auth[] = BLYNK_AUTH_TOKEN;
-char ssid[] = "Redmi Note 7S";      // Your mobile hotspot or router SSID
-char pass[] = "asdfghjkl";          // Wi-Fi password
+char ssid[] = "WIFI";      // Your mobile hotspot or router SSID
+char pass[] = "password";          // Wi-Fi password
 
 // Pin Definitions
 #define LDR1_PIN 34           // LDR1 connected to GPIO 34
